@@ -1,9 +1,6 @@
 let btns = document.querySelectorAll(".category");
 let submit = document.getElementById("submit");
 
-function downlodeBtn(){
-    alert("CV Downloded")
-}
 
 submit.addEventListener("click", function(){
     let email = document.getElementById("email");
